@@ -15,7 +15,7 @@ var image2 = new Image(); // large images
 
 
 // declaring arrays
-var images = ["thumb/thumb1.png", "thumb/thumb2.png", "thumb/thumb3.png", "thumb/thumb4.png", "thumb/thumb5.png"];
+var images = ["thumbs/thumb1.png", "thumbs/thumb2.png", "thumbs/thumb3.png", "thumbs/thumb4.png", "thumbs/thumb5.png"];
 var largeImages = ["images/image1.png", "images/image2.png", "images/image3.png", "images/image4.png", "images/image5.png"];
 var title = ["title 1", "title 2", "title 3", "title 4", "title 5"];
 var descripton = ["longer description 1", "longer description 2", "longer description 3", "longer description 4", "longer description 5"];
