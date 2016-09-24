@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Scrolling Thumbnails</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3-theme-green.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="w3-theme-dark">
+    <header class="w3-container constrain w3-theme-l4">
+        <h1>Sliding thumbnails</h1>
+    </header>
+    <div class="w3-panel constrain">
+        <div id="slides">
+            <a href="#"><img src="thumb/thumb5.png" alt="ireland thumbnail button left" id="left" onclick="leftButton()"></a>
+            <a href="#"><img src="thumb/thumb1.png" alt="ireland thumbnail button center" id="center" onclick="centerButton()"></a>
+            <a href="#"><img src="thumb/thumb2.png" alt="ireland thumbnail button right" id="right" onclick="rightButton()"></a>
+            <a href="#"><img src="images/play.png" alt="play" id="play-right" onclick="changeThumb()"></a>
+
+        </div>
+
+    </div>
+    <div class="w3-container constrain w3-theme-l4">
+        <img src="images/image1.png" alt="Seamus the stuffed sheep tours Ireland" id="large">
+        <div id="info">
+            <h1 id="title">Seamus Deciding What to do</h1>
+            <p id="detail">Seamus in the town of Blarney. He was having trouble deciding if he was going to shop for mittens at Blarney Woolen Mills, go to the pub and watch rugby, or go over to the castle to kiss the Blarney stone.</p>
+        </div>
+    </div>
+
+    <script src="thumbs.js"></script>
+</body>
+
+</html>

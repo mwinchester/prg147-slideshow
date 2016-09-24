@@ -1,0 +1,39 @@
+.constrain{
+    max-width: 960px;
+    min-height: 50px;
+    margin: 10px auto;
+}
+
+h1{
+    text-align: center;
+}
+
+#slides{
+    width: 360px;
+    background-color: #000;
+    height: 120px;
+    vert-align: middle;
+    text-align:center;
+    margin: 5px auto;
+
+}
+
+#play-right{
+    padding: 35px 0px;
+}
+
+#large{
+    width: 60%;
+    height: auto;
+    margin: 10px;
+    float: left;
+    padding: 5px 15px 5px 5px;
+}
+
+#info{
+    float:left;
+    width: 30%;
+    margin: 10px;
+    padding: 35px 15px 5px 5px;
+    font-size:1.2em;
+}
